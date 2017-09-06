@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
 import './style.css';
 import Anime from 'react-anime'
 
@@ -21,6 +20,8 @@ class App extends Component {
          loop={true}
          delay={(el, index) => index * 1000}
          translateX='5rem'
+         translateY='250'
+         easing='linear'
          scale={[.75, .9]}>
             <div className="box"/>
       </Anime>
@@ -40,3 +41,4 @@ class App extends Component {
 
 
 render(<App />, document.getElementById('root'));
+
