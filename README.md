@@ -1,5 +1,5 @@
 # Preview
-# https://stackblitz.com/edit/react-yqk1pe?file=index.js
+# https://codesandbox.io/s/w0nmm7okow 
 
 ## https://www.npmjs.com/package/react-anime
 ## http://animejs.com/documentation/
